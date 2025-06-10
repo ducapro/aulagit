@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turma de Desenvolvimento Web - [Seu Nome/Nome da Turma]</title>
+    <style>
+        /* Estilos básicos para tornar a página um pouco mais agradável */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav ul {
+            padding: 0;
+            list-style: none;
+            text-align: center;
+            background-color: #444;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: inline-block;
+        }
+        nav ul li a:hover {
+            background-color: #555;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .project-card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        .project-card h3 {
+            margin-top: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+        code {
+            background-color: #eee;
+            padding: 2px 4px;
+            border-radius: 4px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        pre {
+            background-color: #eee;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto; /* Para lidar com código muito longo */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo à Turma de Desenvolvimento Web!</h1>
+        <p>Aprenda a criar sites incríveis do zero.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#materiais">Materiais</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#recursos">Recursos Úteis</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="inicio">
+            <h2>Sobre a Turma</h2>
+            <p>Sejam bem-vindos à nossa jornada no mundo do desenvolvimento web! Aqui, exploraremos os fundamentos do HTML, CSS e JavaScript para construir páginas e aplicações interativas.</p>
+            <p>Nosso objetivo é que todos saiam com uma compreensão sólida de como a web funciona e a capacidade de criar seus próprios projetos.</p>
+        </section>
+
+        <section id="materiais">
+            <h2>Materiais de Aula</h2>
+            <p>Aqui você encontrará os slides, anotações e outros materiais de cada aula.</p>
+            <ul>
+                <li><a href="aula1-introducao-html.pdf" target="_blank">Aula 1: Introdução ao HTML</a> (PDF)</li>
+                <li><a href="aula2-css-basico.pptx" target="_blank">Aula 2: CSS Básico</a> (PowerPoint)</li>
+                <li><a href="https://github.com/seu-usuario/seu-repositorio-turma" target="_blank">Repositório GitHub da Turma</a> (para exemplos de código)</li>
+                </ul>
+        </section>
+
+        <section id="projetos">
+            <h2>Projetos da Turma</h2>
+            <p>Veja alguns dos projetos desenvolvidos pela turma e inspire-se!</p>
+
+            <div class="project-card">
+                <h3>Projeto 1: Página Pessoal</h3>
+                <p>Um projeto para criar uma página simples sobre você usando HTML e CSS.</p>
+                <p><strong>Exemplo de código HTML:</strong></p>
+                <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Minha Página&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Olá, Mundo!&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+                <p><a href="link-para-projeto1.html" target="_blank">Ver Projeto</a></p>
+            </div>
+
+            <div class="project-card">
+                <h3>Projeto 2: Layout Responsivo</h3>
+                <p>Um projeto para aplicar técnicas de design responsivo com CSS.</p>
+                <p><a href="link-para-projeto2.html" target="_blank">Ver Projeto</a></p>
+            </div>
+            </section>
+
+        <section id="recursos">
+            <h2>Recursos Úteis</h2>
+            <p>Links para ferramentas, documentações e tutoriais que podem ajudar nos seus estudos.</p>
+            <ul>
+                <li><a href="https://developer.mozilla.org/pt-BR/docs/Web" target="_blank">MDN Web Docs</a> (Documentação oficial e completa)</li>
+                <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a> (Tutoriais e referências)</li>
+                <li><a href="https://validator.w3.org/" target="_blank">Validador HTML do W3C</a> (Para verificar a sintaxe do seu HTML)</li>
+                <li><a href="https://jigsaw.w3.org/css-validator/" target="_blank">Validador CSS do W3C</a> (Para verificar a sintaxe do seu CSS)</li>
+                <li><a href="https://code.visualstudio.com/" target="_blank">VS Code</a> (Editor de código popular)</li>
+                </ul>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Se tiverem dúvidas ou precisarem de ajuda, entrem em contato:</p>
+            <ul>
+                <li><strong>Professor(a):</strong> [Seu Nome/Nome do Professor(a)]</li>
+                <li><strong>Email:</strong> <a href="mailto:seu.email@exemplo.com">seu.email@exemplo.com</a></li>
+                <li><strong>Grupo de Discussão:</strong> [Link para Discord, WhatsApp, etc.]</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Turma de Desenvolvimento Web. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
